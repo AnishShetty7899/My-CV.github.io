@@ -1,0 +1,204 @@
+/* Reset default margin and padding for all elements */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images3.jfif"); /* Update the image file name */
+  background-size: cover;
+  background-repeat: repeat;
+  font-size: 16px; /* Adjust the base font size */
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Style the container for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+}
+
+/* Style the profile picture */
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Style the intro section */
+.intro {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 550;
+  font-size: large;
+  padding: 1em 0;
+  margin-top: 1em;
+}
+
+/* Style the education section */
+.education {
+  margin-top: 2em;
+  font-size: 18px; /* Increase font size for the entire education section */
+}
+
+.education h2 {
+  font-size: 1.8em; /* Increase font size for the section heading */
+  margin-bottom: 0.5em;
+}
+
+/* Style individual under-grad qualifications */
+.under-grad {
+  margin-bottom: 1.5em; /* Add margin to create a gap between each under-grad */
+}
+/* Style the career, education, and skill sections */
+.carrier,
+.education,
+.skill {
+  margin-top: 2em;
+}
+.career-content {
+  font-size: 1.2em; /* Increase font size to medium */
+}
+.carrier-heading,
+.edu-heading,
+.skill-heading {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.carrier-content,
+.edu-content,
+.skill-content {
+  font-size: 1.1em;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0.5em;
+}
+.gfg {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.skills {
+  margin-top: 2em;
+  margin-bottom: 2rem;
+}
+
+/* Style the links */
+a {
+  color: #070707fe;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the sections container */
+.sections-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  background-color: lightseagreen; /* Set lime green background color */
+  padding: 1em; /* Add padding for visual separation */
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+/* Style individual sections */
+.section {
+  flex: 1;
+  background-color: lightseagreen;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.sections-container,
+.sections-container a {
+  color: black;
+}
+
+.section:hover {
+  background-color: #f2f2f2; /* Hover background color */
+  border-radius: 20px; /* Increase border radius on hover */
+}
+/* Style the table for skills */
+.gfg {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gfg td {
+  padding: 0.5em;
+  text-align: center;
+  border: none; /* Remove border */
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+
+/* Style the social icons */
+.social-icons {
+  margin-top: 1em;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 0.5em;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 1em;
+  }
+
+  .td-myinfo-css {
+    margin-top: 1em;
+  }
+
+  .hobbies-heading h2 a {
+    font-size: 1.2em;
+  }
+}
